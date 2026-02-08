@@ -1,5 +1,5 @@
 pip==26.0.1
 pillow==12.1.0
 gpsoauth==2.0.0
-gkeepapi==0.17.0
+gkeepapi==0.17.1
 requests==2.32.5
