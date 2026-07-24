@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v6.1.0
         with:
           fetch-depth: 1
 
@@ -42,7 +42,7 @@ jobs:
       AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v6.1.0
         with:
           fetch-depth: 1
 
