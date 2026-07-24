@@ -71,7 +71,7 @@ jobs:
         shell: bash
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v6.0.0
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: meeting-downloads-${{ github.run_id }}
           path: artifacts/
