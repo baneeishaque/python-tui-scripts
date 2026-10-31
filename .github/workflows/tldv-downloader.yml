@@ -49,7 +49,7 @@ jobs:
       - name: Set up tools with mise
         uses: jdx/mise-action@v3.6.1
         with:
-          version: 'v2025.12.13'
+          version: 'v2026.10.25'
           install: true
           cache: true
 
